@@ -1,0 +1,21 @@
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#1e3c72,#2a5298);color:white;transition:0.4s;}
+nav{display:flex;justify-content:space-between;padding:15px 40px;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);position:sticky;top:0;}
+nav a{color:white;margin:0 10px;text-decoration:none;}
+header{text-align:center;padding:100px 20px;}
+.btn{background:white;color:#1e3c72;padding:12px 25px;border-radius:30px;text-decoration:none;}
+.language{margin:40px;padding:40px;border-radius:20px;background:rgba(255,255,255,0.1);backdrop-filter:blur(15px);opacity:0;transform:translateY(50px);transition:1s;}
+.language.show{opacity:1;transform:translateY(0);}
+.pricing{display:flex;gap:20px;flex-wrap:wrap;margin-top:20px;}
+.card{flex:1;min-width:200px;padding:20px;border-radius:15px;background:rgba(255,255,255,0.2);text-align:center;transition:0.3s;}
+.card:hover{transform:translateY(-10px);}
+.free{background:#28a745;}
+.stats{display:flex;justify-content:space-around;padding:40px;background:rgba(0,0,0,0.2);}
+form{display:flex;flex-direction:column;gap:15px;margin:20px;}
+input,select,button{padding:10px;border-radius:8px;border:none;}
+button{cursor:pointer;}
+footer{text-align:center;padding:30px;background:rgba(0,0,0,0.3);}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;padding:15px;border-radius:50%;text-decoration:none;color:white;font-size:20px;}
+.dark{background:#111 !important;}
+.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);justify-content:center;align-items:center;}
+.modal-content{background:white;color:black;padding:30px;border-radius:15px;text-align:center;}
